@@ -1,4 +1,30 @@
 // Ref: https://github.com/nuxt-community/vuetify-module#customvariables
 //
 // The variables you want to modify
-// $font-size-root: 20px;
+//$heading-font-family: "Noto Sans HK", sans-serif;
+$body-font-family: "Noto Sans HK", sans-serif !default;
+//
+//$heading: #202428;
+//$text: #606065;
+//
+//$primary: #f14668 !default;
+//
+//$red: #ff470f !default;
+//$yellow: #ffdd57 !default;
+//$green: #48c774 !default;
+//$turquoise: #00d1b2 !default;
+//$cyan: #3298dc !default;
+//$blue: #3273dc !default;
+//$purple: #b86bff !default;
+
+$material-light: () !default;
+$material-light: (
+        'text': (
+                'primary': #202428,
+                'secondary': #606065,
+        )
+);
+
+$btn-text-transform: none;
+
+@import '~vuetify/src/styles/styles.sass';

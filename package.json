@@ -1,7 +1,7 @@
 {
   "name": "fyp-bert-qa-ui",
   "version": "1.0.0",
-  "description": "My divine Nuxt.js project",
+  "description": "Bert QA UI",
   "author": "Kevin Cheung",
   "private": true,
   "scripts": {
@@ -11,13 +11,18 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
     "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "@nuxtjs/dotenv": "^1.4.0"
+    "@types/lodash": "^4.14.155",
+    "lodash": "^4.17.15",
+    "nuxt": "^2.0.0",
+    "nuxt-property-decorator": "^2.7.2",
+    "vue-upload-component": "^2.8.20"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.6.0",
-    "@nuxtjs/vuetify": "^1.0.0"
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@types/webpack-env": "^1.15.2"
   }
 }
