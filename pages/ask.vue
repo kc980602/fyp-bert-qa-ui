@@ -69,7 +69,15 @@
         }
 
         created() {
-            console.log(this.qaId)
+            try {
+                if (this.$route.query['id']) {
+                    this.qaId = parseInt(this.$route.query.id.toString())
+                } else {
+                    this.$router.replace('/')
+                }
+            } catch (e) {
+                console.log(e)
+            }
         }
 
         get qaIdLink() {
