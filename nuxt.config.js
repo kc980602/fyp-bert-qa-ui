@@ -23,7 +23,7 @@ export default {
             {hid: 'description', name: 'description', content: 'A Bert powered question answering ask allowing user import context.'}
         ],
         link: [
-            {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+            {rel: 'icon', type: 'image/x-icon', href: '/icon.png'},
             {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;500;700&display=swap'},
             {rel: 'stylesheet', href: '/assets/css/style.css'}
         ]
