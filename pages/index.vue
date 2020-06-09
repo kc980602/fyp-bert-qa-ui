@@ -3,7 +3,7 @@
         <v-layout class="py-11 py-lg-14" column>
             <v-flex>
                 <div class="text-center">
-                    <img src="./icon.svg" width="150px" height="150px">
+                    <img src="/static/icon.svg" width="150px" height="150px">
                     <h1 class="font-size-28 font-size-md-40 mb-7">Create your QA bot</h1>
                     <h2 class="font-size-20 font-weight-medium mb-7">Upload document and generate QA bot. <br>Ask any question you like.</h2>
                     <div class="my-2">

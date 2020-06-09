@@ -80,14 +80,6 @@
             }
         }
 
-        get qaIdLink() {
-            return `${process.env.BASE_URL}/bot/${this.qaId}`
-        }
-
-        get qaIdAPILink() {
-            return `${process.env.API_DOMAIN}/bot/${this.qaId}?question=what+is+bert`
-        }
-
         async askQuestion() {
             if (!!this.question) {
                 this.isLoading = true

@@ -343,7 +343,7 @@
         }
 
         get qaIdLink() {
-            return `${process.env.BASE_URL}/ask/${this.qaId}`
+            return `${process.env.BASE_URL}/ask?${this.qaId}`
         }
 
         get qaIdAPILink() {
