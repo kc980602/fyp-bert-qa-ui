@@ -1,7 +1,7 @@
 <template>
     <v-container class="py-6">
 
-        <v-overlay :value="isLoading" absolute="absolute" color="rgba(255, 255, 255, 0.8)">
+        <v-overlay id="create-loading" :value="isLoading" absolute="absolute" color="rgba(255, 255, 255, 0.8)">
             <v-progress-circular
                     :size="80"
                     :width="3"
@@ -95,6 +95,10 @@
                 <v-stepper-content step="2">
                     <h3 class="font-size-24 font-size-md-32 mb-7">Review extracted paragraph</h3>
 
+                    <v-layout class="mb-7" justify-end>
+                        <v-btn :disabled="!step3Enable" @click="createQABot" color="primary" rounded x-large>Save</v-btn>
+                    </v-layout>
+
                     <v-layout class="mb-7">
                         <v-select
                                 :items="fileOptions"
@@ -124,9 +128,6 @@
                                         Add
                                     </v-btn>
                                     <v-dialog max-width="500px" v-model="dialog">
-                                        <template>
-
-                                        </template>
                                         <v-card>
                                             <v-card-title>
                                                 <span class="headline">{{ isEditMode ? 'Edit Paragraph' : 'Add Paragraph' }}</span>
@@ -174,21 +175,53 @@
                         <h3 class="font-size-32 mb-1 class">Answer</h3>
                         <div class="divider mb-7"></div>
 
-                        <v-card :flat="true" class="mx-auto mb-7" color="red lighten-5" max-width="700">
-                            <v-card-text class="headline font-weight-bold">
-                                {{ans.ans}}
-                            </v-card-text>
-                        </v-card>
+                        <div v-if="ans.ans">
+                            <v-card :flat="true" class="mx-auto mb-7" color="red lighten-5" max-width="700">
+                                <v-card-text class="headline font-weight-bold">
+                                    {{ans.ans}}
+                                </v-card-text>
+                            </v-card>
 
+                            <div class="text-left mx-auto font-size-18" style="max-width: 700px">
+                                <p><span class="font-weight-medium">Document: </span>{{ans.doc.filename}}</p>
 
-                        <div class="text-left mx-auto font-size-18" style="max-width: 700px">
-                            <p><span class="font-weight-medium">Document: </span>{{ans.doc.filename}}</p>
-
-                            <p><span class="font-weight-medium">Paragraph: </span><br>{{ans.text}}</p>
+                                <p><span class="font-weight-medium">Paragraph: </span><br>{{ans.text}}</p>
+                            </div>
                         </div>
+
+                        <div class="headline font-weight-bold" v-else>
+                            Sorry, can't find an answer!
+                        </div>
+
                     </div>
 
+                    <v-layout class="mb-7" justify-center>
+                        <v-btn color="primary" dark class="mb-2" @click="dialogShareSave = true" rounded x-large>Save</v-btn>
+                    </v-layout>
 
+                    <v-dialog v-model="dialogShareSave" max-width="500px">
+                        <v-card>
+                            <v-card-title class="mb-5">
+                                <span class="headline">Save your QA Bot</span>
+                            </v-card-title>
+
+                            <v-card-text>
+                                <p class="font-weight-medium mb-2">Method 1: With link</p>
+                                <v-card :flat="true" class="mx-auto mb-7" color="red lighten-5" max-width="700">
+                                    <v-card-text style="padding: 8px!important;">
+                                        <a :href="qaIdLink" target="_blank">{{qaIdLink}}</a>
+                                    </v-card-text>
+                                </v-card>
+
+                                <p class="font-weight-medium mb-2">Method 2: With API</p>
+                                <v-card :flat="true" class="mx-auto mb-7" color="red lighten-5" max-width="700">
+                                    <v-card-text style="padding: 8px!important;">
+                                        <a :href="qaIdAPILink" target="_blank">{{qaIdAPILink}}</a>
+                                    </v-card-text>
+                                </v-card>
+                            </v-card-text>
+                        </v-card>
+                    </v-dialog>
                 </v-stepper-content>
 
             </v-stepper-items>
@@ -281,9 +314,16 @@
         qaId: number = 0
         question: string = ''
         ans: {} | null = null
+        dialogShareSave: boolean = false
         //  DATA
         docList: Doc[] = []
 
+
+        head() {
+            return {
+                title: 'Create - Bert QA Bot Generator'
+            }
+        }
 
         get docParagraph() {
             if (this.currFile !== '') {
@@ -302,24 +342,36 @@
             return []
         }
 
+        get qaIdLink() {
+            return `${process.env.BASE_URL}/ask/${this.qaId}`
+        }
+
+        get qaIdAPILink() {
+            return `${process.env.API_DOMAIN}/ask/${this.qaId}?question=what+is+bert`
+        }
+
         created() {
-            if (this.$route.query.id) {
-                try {
-                    this.qaId = parseInt(this.$route.query.id.toString())
-                } catch (e) {
-                    console.log(e)
-                }
-            }
+            // if (this.$route.query.id) {
+            //     try {
+            //         this.qaId = parseInt(this.$route.query.id.toString())
+            //     } catch (e) {
+            //         console.log(e)
+            //     }
+            // }
         }
 
         //  Step 1
         startUploadAndGetUrls() {
-            if (this.files.length) {
-                const upload: any = this.$refs.upload
-                upload.active = true
-                this.isLoading = this.docIds.length !== this.files.length
+            try {
+                if (this.files.length) {
+                    const upload: any = this.$refs.upload
+                    upload.active = true
+                    this.isLoading = this.docIds.length !== this.files.length
+                }
+                this.changeTo2()
+            } catch (e) {
+                this.$store.dispatch('setSnackMessage', 'Server Error')
             }
-            this.changeTo2()
         }
 
         inputFile(newFile, oldFile) {
@@ -327,6 +379,8 @@
                 const res = newFile.response
                 if (res.success) {
                     this.docIds.push(res.id)
+                } else {
+                    this.$store.dispatch('setSnackMessage', res.data.message || 'Server Error')
                 }
             }
             this.step2Enable = this.files.length > 0
@@ -413,9 +467,11 @@
             if (res.data.success) {
                 this.qaId = res.data.id
                 this.currStep = 3
-                this.$router.push(`/create?id=${this.qaId}`)
-                this.isLoading = false
+                // this.$router.push(`/create?id=${this.qaId}`)
+            } else {
+                this.$store.dispatch('setSnackMessage', res.data.message || 'Server Error')
             }
+            this.isLoading = false
         }
 
         async askQuestion() {
@@ -424,14 +480,16 @@
                 const res = await createRequest(`/ask/${this.qaId}`, 'get', {question: this.question}).send()
                 if (res.data.success) {
                     this.ans = res.data.answer
-                    this.isLoading = false
+                } else {
+                    this.$store.dispatch('setSnackMessage', res.data.message || 'Server Error')
                 }
+                this.isLoading = false
             }
         }
     }
 </script>
 <style lang="scss">
-    .v-overlay {
+    .v-overlay#create-loading {
         height: calc(100vh - 64px);
         position: fixed !important;
         top: 64px !important;
