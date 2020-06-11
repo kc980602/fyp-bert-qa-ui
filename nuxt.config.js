@@ -20,7 +20,8 @@ export default {
         meta: [
             {charset: 'utf-8'},
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-            {hid: 'description', name: 'description', content: 'A Bert powered question answering ask allowing user import context.'}
+            {hid: 'description', name: 'description', content: 'A Bert powered question answering ask allowing user import context.'},
+            {'http-equiv': 'Content-Security-Policy', content: 'upgrade-insecure-requests'}
         ],
         link: [
             {rel: 'icon', type: 'image/x-icon', href: '/icon.png'},
@@ -84,7 +85,7 @@ export default {
                 }
             }
         },
-        defaultAssets:{
+        defaultAssets: {
             font: {
                 family: 'Noto Sans HK'
             }
