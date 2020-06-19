@@ -14,6 +14,20 @@
                 </div>
             </v-flex>
         </v-layout>
+
+        <v-layout class="py-11 py-lg-14" column>
+            <v-flex>
+                <div class="text-center">
+                    <h5 class="font-size-28 font-size-md-40 text-left text-md-center text-primary mb-0">
+                        Try it now
+                    </h5>
+                    <p>Question Answering demo with NewsQA dataset</p>
+                </div>
+            </v-flex>
+        </v-layout>
+
+
+
     </v-container>
 </template>
 

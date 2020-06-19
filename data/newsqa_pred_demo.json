@@ -1,0 +1,1180 @@
+[
+    {
+        "story_id": "./cnn/stories/33530f97118cc905b05cb920671492c7bfdf3a3b.story",
+        "story_text": "(CNN) -- Explorer Dennis Schmitt found an island nearly two years ago near Greenland.\n\nFishermen pass by Greenland's Ilulissat fjord in this September 2004 picture.\n\nSuch a discovery would usually elicit curiosity, even wonder perhaps, but it evoked mixed feelings for the explorer.\n\nThe island was once thought to be a peninsula attached to Greenland by an ice shelf or a glacier. But such a large amount of ice melted, it revealed the distinct island.\n\n\"I very quickly realized two things,\" he told CNN's Anderson Cooper during a visit to the island earlier this year. \"One [was] that this was going to be significant because it was going to be an example of climate change.\"\n\n\"The other thing was that it meant it was really happening. It wasn't a joke. It wasn't just statistics. It was really happening.\"\n\nHe calls his discovery Warming Island.\n\nMany climatologists and scientists say arctic ice melt and other changes in the Earth's climate are the result of an increase in the world's temperature, a trend widely called global warming.\n\nMany global warming experts say the phenomenon, if unchecked, is capable of altering the world's climate and geography. In the worst-case scenario, experts say oceans could rise to overwhelming and catastrophic levels, flooding cities and altering seashores.\n\nOther scientists and observers, a minority compared to those who believe the warming trend is something ominous, say it is simply the latest shift in the cyclical patterns of a planet's life.\n\nMost of the scientific community believes that some warming is occurring across the globe and through some layers of the atmosphere. But why it is occurring and what that means for the future is scientifically and politically contentious.\n\nThe Earth's temperature averages about 60 degrees Fahrenheit (about 16 degrees Celsius).\n\nThe average surface temperature has warmed one degree Fahrenheit (0.6 degrees Celsius) during the last century, according to the National Research Council.\n\nThe temperatures were relatively unchanged from 1880 to 1910, according to the U.S. Environmental Protection Agency. They rose till about 1945, cooled until about 1975 and have risen steadily to present day.\n\nThere are several possible reasons for the warming, scientists say.\n\nA change in the Earth's orbit or the intensity of the sun's radiation could change, triggering warming or cooling.\n\nThe reason most cited -- by scientists and scientific organizations -- for the current warming trend is an increase in the concentrations of greenhouse gases, which are in the atmosphere naturally and help keep the planet's temperature at a comfortable level.\n\nThe amount of carbon dioxide in the atmosphere, for instance, has increased by 35 percent since the dawn of the industrial age, according to the United Nations' Intergovernmental Panel on Climate Change, commonly referred to as the IPCC.\n\nThe presence of methane is now 151 percent above pre-industrial levels, but the rate of increase has slowed in recent decades, according to the EPA. Meanwhile, nitrous oxide increased by about 18 percent during the past 200 years.\n\nMany scientists and experts who have studied global warming believe the increase is primarily the result of human activities, like the burning of fossil fuels, emissions from vehicles and the clearing of forests.\n\n\"For the last 30 years, there's no way there's anything natural that can explain it,\" Stephen Schneider, a professor of environmental studies at Stanford University in California, said.\n\n\"A vast bulk of the knowledgeable and honest community ... will say the science is settled and humans are at least a majority of the reason behind the warming,\" he added.\n\nMany scientific organizations share Schneider's view, ranging from the national academies of the countries that comprise the G8 to the National Research Council, the American Meteorological Society and the American Geophysical Union.\n\nBut there are those who do not share his view, and among the skeptics is Richard Lindzen, a professor of atmospheric sciences at the Massachusetts Institute of Technology.\n\n\"We've suddenly taken to reading tea leaves,\" he said. \"When we saw cooling from 1940 to 1970, we were proclaiming global cooling. Since then, there's been a few tenths of global warming, so we're proclaiming global warming.\"\n\nHe believes the current warming trend is the result of natural variability, where a planet goes through phases of warming and cooling and the human contribution to it is minimal.\n\n\"The Earth is always getting colder and warmer,\" he said. \"It's always changing. In fact, this is true of any fluid-covered planet.\"\n\nAsked about glacial melt, which many observers point to as evidence of global warming, Lindzen said the way glaciers change and move are phenomena largely unexplained.\n\n\"We don't know why, but it's perfectly clear that glaciers change even though the temperature is cooling at the place that they've occurred,\" he said. \"What we're doing is cherry picking any event that occurs and then saying that's occurring due to global warming.\"\n\nYet, for Schneider, it is a cause for concern and alarm. \"We're already in serious melt, nobody can explain it. The models don't predict it,\" he said. \"We don't know what's going on up there. All we know is that we could be triggering something really nasty.\"\n\nThe greatest point of contention is the possible implications for future political and economic policies for the world's nations.\n\nThe IPCC in February 2007 projected that if carbon dioxide levels doubled relative to pre-industrial levels, temperatures could rise between 3.6 to 8.1 degrees Fahrenheit (2 to 4.5 degrees Celsius) by 2100.\n\nThe lower end of the range could cause more intense hurricanes, droughts, wildfires and flooding, Schneider said. The higher end could lead to the catastrophes commonly associated with the visions of Hollywood filmmakers.\n\nUncertainties, however, plague such forecasts, which are based on computer simulations and models. The models contemplate factors associated with how the atmosphere, oceans and continents interact, all natural elements that have unpredictability intrinsic to them.\n\n\"Exactly how much it's going to warm up, we don't know,\" Schneider said. \"That it's going to warm up? I'd bet anything on that.\" E-mail to a friend",
+        "questions": [
+            {
+                "question": "What has warmed one degree?",
+                "answer_char_ranges": "1827:1859|1839:1847|1737:1749,1831:1859|1839:1859",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1831:1859": 2
+                },
+                "answers": [
+                    "average surface temperature "
+                ],
+                "pred_ans": "average surface temperature",
+                "correct": 1
+            },
+            {
+                "question": "what are planets often in according to some critcs?",
+                "answer_char_ranges": "4373:4402,4409:4479,4482:4497|75:86|5050:5067|1454:1481,1490:1496",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 1,
+                    "4409:4479": 1,
+                    "1490:1496": 1
+                },
+                "answers": [
+                    "goes through phases of warming and cooling and the human contribution ",
+                    "life.\n"
+                ],
+                "pred_ans": "cyclical patterns of a planet ' s life",
+                "correct": 0
+            },
+            {
+                "question": "who cares about greenhouse gas?",
+                "answer_char_ranges": "None|18:33",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "18:33": 2
+                },
+                "answers": [
+                    "Dennis Schmitt "
+                ],
+                "pred_ans": "national research council",
+                "correct": 0
+            },
+            {
+                "question": "what temperature has earth warmed by in past 100 years?",
+                "answer_char_ranges": "1870:1892|1827:1847,1870:1983|1870:1914|1870:1892",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1870:1914": 1,
+                    "1870:1983": 1,
+                    "1870:1892": 1
+                },
+                "answers": [
+                    "one degree Fahrenheit (0.6 degrees Celsius) ",
+                    "one degree Fahrenheit (0.6 degrees Celsius) during the last century, according to the National Research Council.\n",
+                    "one degree Fahrenheit "
+                ],
+                "pred_ans": "35 percent",
+                "correct": 0
+            },
+            {
+                "question": "In past 100 years by what number of degrees has the Earth warmed",
+                "answer_char_ranges": "1870:1874|1870:1874,1881:1897,1905:1914|1870:1874,1881:1892|None",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1870:1874": 2
+                },
+                "answers": [
+                    "one "
+                ],
+                "pred_ans": "35 percent",
+                "correct": 0
+            },
+            {
+                "question": "Who says planets are warming or cooling?",
+                "answer_char_ranges": "18:33|18:33,9:18",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "18:33": 2
+                },
+                "answers": [
+                    "Dennis Schmitt "
+                ],
+                "pred_ans": "warming trend is the result of natural variability , where a planet goes through phases of warming and cooling and the human contribution to it is minimal . \" the earth is always getting colder and warmer , \" he said . \" it ' s always changing . in fact , this is true of any fluid - covered planet . \" asked about glacial melt , which many observers point to as evidence of global warming , lindzen",
+                "correct": 0
+            },
+            {
+                "question": "What do a majority of scientists say is causing temperatures to rise.",
+                "answer_char_ranges": "2482:2537|1005:1043,1427:1496,2264:2377,2485:2537,2882:2902,2905:2950,3208:3253,3256:3323,890:992|1027:1043|2482:2537",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1027:1043": 2
+                },
+                "answers": [
+                    "global warming.\n"
+                ],
+                "pred_ans": "some warming is occurring across the globe and through some layers of the atmosphere",
+                "correct": 0
+            },
+            {
+                "question": "What do some critics say about planets often having?",
+                "answer_char_ranges": "4373:4394|4409:4452|3155:3170|661:678",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "4373:4394": 1,
+                    "4409:4452": 1,
+                    "none": 1
+                },
+                "answers": [
+                    "natural variability, ",
+                    "goes through phases of warming and cooling "
+                ],
+                "pred_ans": "the latest shift in the cyclical patterns",
+                "correct": 0
+            },
+            {
+                "question": "what do the majority of scientists blame for rising temperatures?",
+                "answer_char_ranges": "2203:2228,2264:2292,2299:2332,2485:2537,3182:3323,3606:3628|2482:2537|1005:1043,951:992|1005:1043",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "3606:3628": 1,
+                    "3182:3323": 1,
+                    "2203:2228": 1
+                },
+                "answers": [
+                    "humans are at least a ",
+                    "increase is primarily the result of human activities, like the burning of fossil fuels, emissions from vehicles and the clearing of forests.\n",
+                    "several possible reasons "
+                ],
+                "pred_ans": "greenhouse gases",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "story_id": "./cnn/stories/bffa402002700855fec36f83c8c226dfe271a6af.story",
+        "story_text": "(CNN) -- Venezuelan President Hugo Chavez said Wednesday he is cutting all ties with Colombia as long as Alvaro Uribe remains its president.\n\nColombian President Alvaro Uribe withdrew his support for the Venezuelan leader's mediation efforts with the FARC.\n\n\"I say before the world, while President Uribe is president of Colombia, I will not have any type of relation with him or with the government of Colombia,\" Chavez said in an address broadcast on national television. \"I can't, I can't, I can't.\"\n\nChavez noted that Uribe had asked him to help secure the release of hundreds of hostages being held by the leftist rebel group Armed Revolutionary Front of Colombia (FARC) and the National Liberation Army (ELN).\n\n\"I went with my heart in my hand, and I was ready,\" Chavez told a group of supporters in the southwestern state of Tachira. \"I was prepared to go to the most dangerous forest in the country to help.\"\n\nBut last Thursday, Uribe ended Chavez's participation, citing his direct communication with Uribe's top general, a move that Uribe said broke protocol.\n\n\"When we were at the point of succeeding, Uribe comes and, without telling me anything, he didn't even call me on the phone or send me an emissary, just sent me a letter saying he was ending my mission,\" Chavez said. \"That was a kick.\"\n\nWithout being specific, Chavez accused Uribe of having lied. \"That's real ugly,\" he said. Chavez also accused Uribe of having bowed to pressure from Washington \"to get rid of Chavez.\"\n\nBut the firebrand Venezuelan president, who has called U.S. President George W. Bush \"the devil,\" said his arms are open to the Colombian people. E-mail to a friend",
+        "questions": [
+            {
+                "question": "Did Uribe lie?",
+                "answer_char_ranges": "None|1339:1347,1353:1369",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1353:1369": 1,
+                    "none": 2
+                },
+                "answers": [
+                    "of having lied. "
+                ],
+                "pred_ans": "uribe ended chavez ' s participation , citing his direct communication with uribe ' s top general , a move that uribe said broke protocol",
+                "correct": 0
+            },
+            {
+                "question": "What did chaven do back?",
+                "answer_char_ranges": "63:94|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 1,
+                    "bad_question": 1,
+                    "63:94": 1
+                },
+                "answers": [
+                    "cutting all ties with Colombia "
+                ],
+                "pred_ans": "cutting all ties with colombia",
+                "correct": 1
+            },
+            {
+                "question": "What did Uribe cite Chavez's communication with Uribe's top general as?",
+                "answer_char_ranges": "1339:1347,1353:1369|1054:1070|1031:1043,1054:1070|None",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1054:1070": 1,
+                    "none": 1,
+                    "bad_question": 1
+                },
+                "answers": [
+                    "broke protocol.\n"
+                ],
+                "pred_ans": "broke protocol",
+                "correct": 1
+            },
+            {
+                "question": "Who says that Uribe had asked him to help secure the release of hostages",
+                "answer_char_ranges": "20:42,9:20|504:511|None|504:511",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "504:511": 2
+                },
+                "answers": [
+                    "Chavez "
+                ],
+                "pred_ans": "chavez",
+                "correct": 1
+            },
+            {
+                "question": "of what was acussing chavez uribe to do?",
+                "answer_char_ranges": "None|1356:1369",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1356:1369": 2,
+                    "bad_question": 1
+                },
+                "answers": [
+                    "having lied. "
+                ],
+                "pred_ans": "his direct communication with uribe ' s top general",
+                "correct": 0
+            },
+            {
+                "question": "What did Chavez accuse Uribe of doing?",
+                "answer_char_ranges": "1353:1369|1410:1418,1424:1468|1363:1369|1353:1369",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1353:1369": 1,
+                    "1424:1468": 1,
+                    "1363:1369": 1
+                },
+                "answers": [
+                    "of having lied. ",
+                    "of having bowed to pressure from Washington ",
+                    "lied. "
+                ],
+                "pred_ans": "direct communication with uribe ' s top general , a move that uribe said broke protocol",
+                "correct": 0
+            },
+            {
+                "question": "who cited chavez?",
+                "answer_char_ranges": "937:943|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "937:943": 2
+                },
+                "answers": [
+                    "Uribe "
+                ],
+                "pred_ans": "uribe",
+                "correct": 1
+            },
+            {
+                "question": "What did Chavez say Uribe asked him?",
+                "answer_char_ranges": "542:593|542:569,572:604|542:716|258:261,265:299,305:373,377:414",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "542:716": 1,
+                    "542:593": 2
+                },
+                "answers": [
+                    "to help secure the release of hundreds of hostages being held by the leftist rebel group Armed Revolutionary Front of Colombia (FARC) and the National Liberation Army (ELN).\n",
+                    "to help secure the release of hundreds of hostages "
+                ],
+                "pred_ans": "i will not have any type of relation with him or with the government of colombia",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "story_id": "./cnn/stories/700e0d133d2f5c2e65960aae7bffa66bb62c0df4.story",
+        "story_text": "(CNN) -- China has suspended exports of the Aqua Dots toys contaminated with a chemical that can convert to a powerful \"date rape\" drug, the state-run Xinhua news agency reported Saturday. The toys have caused some children who swallowed the craft toys to vomit and lose consciousness.\n\nChina suspended exports of the Aqua Dots toys that contain a chemical that converts into a \"date rape\" drug.\n\nThe agency said that the General Administration of Quality Supervision, Inspection, and Quarantine (AQSIQ) has ordered an investigation by quality control agencies and will release results as soon as they are available.\n\nThe AQSIQ did not reveal the name of the toys' producer, Xinhua said.\n\nU.S. safety officials voluntarily recalled about 4.2 million of the Chinese-made toys Wednesday.\n\nScientists have found the highly popular holiday toy contains a chemical that, once metabolized, converts into the toxic \"date rape\" drug GHB (gamma-hydroxy butyrate), Scott Wolfson, a spokesman with the U.S. Consumer Product Safety Commission (CPSC), told CNN.\n\n\"Children who swallow the beads can become comatose, develop respiratory depression or have seizures,\" a CPSC statement warned.\n\nThe arts-and-craft beads, which have been selling since April at major U.S. retail stores under the name \"Aqua Dots,\" have also been distributed in Australia under the name \"Bindeez Beads.\"\n\nThe Bindeez toys were recalled Tuesday by Melbourne-based Moose Enterprise Pty. Ltd. after three children in Australia swallowed large quantities of the beads and were hospitalized.\n\n\"I was so frightened because I thought she wasn't going to make it,\" Heather Lehane told CNN affiliate Network 7 of her 10-year-old daughter, Charlotte, who was hospitalized in Australia after ingesting some of the beads.\n\nIn the United States, the Washington-based safety commission said it has in recent days received two reports detailing the severe effects of the digested beads, which are part of a craft kit aimed at kids 4 years and older.\n\nThe CPSC said a boy nearly 2 years old \"swallowed several dozen beads. He became dizzy and vomited several times before slipping into a comatose state for a period of time.\"\n\nThe commission said the toddler was hospitalized and has since \"fully recovered.\"\n\nThe second incident involved a child who vomited, fell into a coma and was hospitalized for five days. It was not immediately clear whether the child had made a full recovery.\n\nToronto-based toy distributor Spin Master Ltd. stopped shipping the Aqua Dots toys and asked retailers to pull them off their shelves, where they were previously sold for $17 to $30.\n\nAnyone with Aqua Dots at home should return the product to the company, CPSC spokeswoman Julie Vallese said.\n\nThe toy had been named toy of the year in Australia and recently crested Wal-Mart's list of top 12 Christmas toys.\n\nWal-Mart on Thursday listed the toys on its Web site as \"out of stock online\" and had removed them from their top toy list as well.\n\nThis latest recall is part of a larger batch of recalls of Chinese-made toys that have swept across the country.\n\nLast month alone, U.S. government safety officials and retailers voluntarily recalled at least 69,000 Chinese-made toys over concerns of excessive amounts of lead paint, which can cause hazardous lead poisoning. E-mail to a friend\n\nCNN's Janine Brady, Jason Carroll, Laura Dolan, Julie O'Neill and Leslie Wiggins contributed to this report.",
+        "questions": [
+            {
+                "question": "Who ordered an investigation?",
+                "answer_char_ranges": "None|418:504",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "418:504": 2
+                },
+                "answers": [
+                    "the General Administration of Quality Supervision, Inspection, and Quarantine (AQSIQ) "
+                ],
+                "pred_ans": "the state - run xinhua news agency",
+                "correct": 0
+            },
+            {
+                "question": "What could happen to children who swallow the beads?",
+                "answer_char_ranges": "256:286|228:253,256:286|None|256:286",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "256:286": 2
+                },
+                "answers": [
+                    "vomit and lose consciousness.\n"
+                ],
+                "pred_ans": "hospitalized",
+                "correct": 0
+            },
+            {
+                "question": "WHat happens to children who swallow beads?",
+                "answer_char_ranges": "1082:1153,256:286|256:286|None|1082:1153",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "256:286": 2
+                },
+                "answers": [
+                    "vomit and lose consciousness.\n"
+                ],
+                "pred_ans": "vomit and lose consciousness",
+                "correct": 1
+            },
+            {
+                "question": "What happens to children who swallow the beads?",
+                "answer_char_ranges": "1086:1153|1082:1153|1050:1060,1082:1153|256:286",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 2,
+                    "1082:1153": 1
+                },
+                "answers": [
+                    "can become comatose, develop respiratory depression or have seizures,\" "
+                ],
+                "pred_ans": "hospitalized",
+                "correct": 0
+            },
+            {
+                "question": "Who are selling these toys?",
+                "answer_char_ranges": "1244:1269,1327:1337,1412:1455,2846:2855,9:15|3038:3051,3195:3208,757:770,9:15|622:643,647:652,655:659,665:675|None",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 1,
+                    "757:770": 1,
+                    "1244:1269": 1
+                },
+                "answers": [
+                    "Chinese-made ",
+                    "major U.S. retail stores "
+                ],
+                "pred_ans": "china",
+                "correct": 0
+            },
+            {
+                "question": "what are sold as Bindeez beads in Australia and Aqua dots in united states?",
+                "answer_char_ranges": "378:396|1183:1198|1179:1198|1183:1198",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "378:396": 2
+                },
+                "answers": [
+                    "\"date rape\" drug.\n"
+                ],
+                "pred_ans": "arts - and - craft beads",
+                "correct": 0
+            },
+            {
+                "question": "which is the cause of research in China?",
+                "answer_char_ranges": "15:59|105:137,54:105|105:137,79:105|318:396",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 1,
+                    "318:396": 2
+                },
+                "answers": [
+                    "Aqua Dots toys that contain a chemical that converts into a \"date rape\" drug.\n"
+                ],
+                "pred_ans": "digested beads",
+                "correct": 0
+            },
+            {
+                "question": "what was the count ofchildren were in trouble for beads",
+                "answer_char_ranges": "1461:1467|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1461:1467": 2
+                },
+                "answers": [
+                    "three "
+                ],
+                "pred_ans": "three",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "story_id": "./cnn/stories/63831b842812b1a3d05b04904a10d160fe7ad2af.story",
+        "story_text": "(CNN)  -- With his hands and feet shackled and his face obscured by his long hair, Chester Arthur Stiles made his initial court appearance in Las Vegas, Nevada, on Wednesday morning on charges stemming from the videotaped rape of a 2-year-old girl.\n\nChester Stiles appears Wednesday in a Las Vegas, Nevada, courtroom.\n\nStiles, 37, was taken into custody Monday night after a Henderson, Nevada, police officer pulled over the white Buick Century he was driving.\n\nProsecutors added a couple more charges before Wednesday's hearing, bringing the total to 23 felony counts, including a charge of lewdness with a minor, sexual assault and the use of a child in the production of pornography, according to a statement issued by the Clark County, Nevada, court.\n\nOne of the lewdness charges stems from a 2004 incident, while the others are related to the videotape, the court said.\n\nJudge Deborah Lippis set November 19 as the date for the preliminary hearing.\n\nAfter the hearing, Stiles' court-appointed attorney said his client was overwhelmed by the public opinion in the case.\n\n\"I think he's a little out of it,\" public defender Jeff Banks said.\n\nJerry T. Donohue, the attorney for the girl's mother, told CNN that the child on the videotape was younger than 3 when the abuse occurred. The girl, who is now 7, was found last month after a nationwide search.\n\nThe girl's mother said on \"The Dr. Phil Show\" Wednesday that she was \"relieved\" about Stiles' arrest, although it would have been \"better if they found him dead.\"\n\nThe woman said she will testify against Stiles if the case goes to court.\n\nShe told Phil McGraw that her daughter remembers nothing about the videotaped assault and that she recently had a conversation with the girl about inappropriate touching.\n\nShe said her daughter told her that if someone touched her inappropriately, the girl would scream and tell her mother.\n\nBut, she told McGraw, \"I don't trust anybody now.\"\n\nAlthough she is in a relationship with a man her daughter calls \"Dad,\" she said, \"I don't feel comfortable leaving her with him, nor with anybody else. ... I just cry and blame it on myself.\"\n\nEight-and-a-half months pregnant, she said the incident has placed a lot of strain on her.\n\nAsked if she would rather not have known about the assault, she said, \"Yes, I could have lived without knowing it.\"\n\nA former girlfriend of Stiles' said that, before the arrest, she lived in fear after going to police to identify the suspect after seeing enhanced photos from the videotape on the local news.\n\n\"I've had my share of nightmares,\" Elaine Thomas told CNN's Nancy Grace.\n\nThomas said she screamed when she recognized the photos on television and had no choice but to contact police about the man she had thought was a \"weapons enthusiast\" with only a minor criminal record.  Watch Thomas say how she felt when she saw the photos »\n\n\"How could I not tell them who that man was? That little girl suffered unimaginable things, and I knew for a fact it was him,\" Thomas said.\n\nAnother former girlfriend of Stiles', Tina Allen, said this month she thinks she is the reason Stiles came in contact with the girl and is \"mortified\" by the allegations against him.\n\n\"He said he'd been in the Navy and, you know, I was looking for a strong guy to represent to my sons what I thought they needed to be,\" Allen said.\n\nAllen said she took Stiles to a crowded apartment where her son and daughter lived.\n\nAlso living in the apartment were a family friend and her daughter, the alleged assault victim. Todd Allen, Tina Allen's son, said he recognized his old apartment from scenes in the video.  E-mail to a friend\n\nCNN's Ed Payne and Ted Rowlands contributed to this report.",
+        "questions": [
+            {
+                "question": "What is happening to Stiles?",
+                "answer_char_ranges": "105:128|185:249,335:354|None|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "335:354": 2
+                },
+                "answers": [
+                    "taken into custody "
+                ],
+                "pred_ans": "arrest",
+                "correct": 0
+            },
+            {
+                "question": "In what city was Stiles arrested?",
+                "answer_char_ranges": "142:153|375:394|375:386|375:394",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "375:394": 2,
+                    "142:153": 1
+                },
+                "answers": [
+                    "Henderson, Nevada, ",
+                    "Las Vegas, "
+                ],
+                "pred_ans": "henderson",
+                "correct": 1
+            },
+            {
+                "question": "What has his ex-girlfriend had",
+                "answer_char_ranges": "None|2534:2540,2544:2569",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "2544:2569": 2
+                },
+                "answers": [
+                    "my share of nightmares,\" "
+                ],
+                "pred_ans": "videotaped rape of a 2 - year - old girl",
+                "correct": 0
+            },
+            {
+                "question": "what are the charges?",
+                "answer_char_ranges": "None|552:687",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "552:687": 2
+                },
+                "answers": [
+                    "23 felony counts, including a charge of lewdness with a minor, sexual assault and the use of a child in the production of pornography, "
+                ],
+                "pred_ans": "lewdness charges stems from a 2004 incident , while the others are related to the videotape",
+                "correct": 0
+            },
+            {
+                "question": "What did Chester Arthur Stiles's girfriend say",
+                "answer_char_ranges": "2383:2533,2534:2569,2615:2810,2868:2995,3075:3192,3193:3294,3299:3329,3353:3426|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "2534:2569": 1,
+                    "2868:2995": 1,
+                    "2383:2533": 1
+                },
+                "answers": [
+                    "\"I've had my share of nightmares,\" ",
+                    "\"How could I not tell them who that man was? That little girl suffered unimaginable things, and I knew for a fact it was him,\" ",
+                    "before the arrest, she lived in fear after going to police to identify the suspect after seeing enhanced photos from the videotape on the local news.\n"
+                ],
+                "pred_ans": "videotaped rape of a 2 - year - old girl",
+                "correct": 0
+            },
+            {
+                "question": "What did the suspect's ex-girlfriend say?",
+                "answer_char_ranges": "2402:2458,2534:2569|2166:2205,2208:2218,2294:2340|2383:2458,2466:2533,3059:3192|2534:2569,2868:2995",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "2534:2569": 1,
+                    "2868:2995": 1,
+                    "2466:2533": 1
+                },
+                "answers": [
+                    "\"I've had my share of nightmares,\" ",
+                    "\"How could I not tell them who that man was? That little girl suffered unimaginable things, and I knew for a fact it was him,\" ",
+                    "after seeing enhanced photos from the videotape on the local news.\n"
+                ],
+                "pred_ans": "his client was overwhelmed by the public opinion in the case .",
+                "correct": 0
+            },
+            {
+                "question": "which are the main charges of the accused?",
+                "answer_char_ranges": "211:249|592:687|589:687|592:687",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "592:687": 2,
+                    "211:249": 1
+                },
+                "answers": [
+                    "lewdness with a minor, sexual assault and the use of a child in the production of pornography, ",
+                    "videotaped rape of a 2-year-old girl.\n"
+                ],
+                "pred_ans": "lewdness charges stems from a 2004 incident , while the others are related to the videotape",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "story_id": "./cnn/stories/42c027e4ff9730fbb3de84c1af0d2c506e41c3e4.story",
+        "story_text": "LONDON, England (Reuters) -- Harry Potter star Daniel Radcliffe gains access to a reported £20 million ($41.1 million) fortune as he turns 18 on Monday, but he insists the money won't cast a spell on him.\n\nDaniel Radcliffe as Harry Potter in \"Harry Potter and the Order of the Phoenix\"\n\nTo the disappointment of gossip columnists around the world, the young actor says he has no plans to fritter his cash away on fast cars, drink and celebrity parties.\n\n\"I don't plan to be one of those people who, as soon as they turn 18, suddenly buy themselves a massive sports car collection or something similar,\" he told an Australian interviewer earlier this month. \"I don't think I'll be particularly extravagant.\n\n\"The things I like buying are things that cost about 10 pounds -- books and CDs and DVDs.\"\n\nAt 18, Radcliffe will be able to gamble in a casino, buy a drink in a pub or see the horror film \"Hostel: Part II,\" currently six places below his number one movie on the UK box office chart.\n\nDetails of how he'll mark his landmark birthday are under wraps. His agent and publicist had no comment on his plans.\n\n\"I'll definitely have some sort of party,\" he said in an interview. \"Hopefully none of you will be reading about it.\"\n\nRadcliffe's earnings from the first five Potter films have been held in a trust fund which he has not been able to touch.\n\nDespite his growing fame and riches, the actor says he is keeping his feet firmly on the ground.\n\n\"People are always looking to say 'kid star goes off the rails,'\" he told reporters last month. \"But I try very hard not to go that way because it would be too easy for them.\"\n\nHis latest outing as the boy wizard in \"Harry Potter and the Order of the Phoenix\" is breaking records on both sides of the Atlantic and he will reprise the role in the last two films.  Watch I-Reporter give her review of Potter's latest »\n\nThere is life beyond Potter, however.\n\nThe Londoner has filmed a TV movie called \"My Boy Jack,\" about author Rudyard Kipling and his son, due for release later this year. He will also appear in \"December Boys,\" an Australian film about four boys who escape an orphanage.\n\nEarlier this year, he made his stage debut playing a tortured teenager in Peter Shaffer's \"Equus.\"\n\nMeanwhile, he is braced for even closer media scrutiny now that he's legally an adult: \"I just think I'm going to be more sort of fair game,\" he told Reuters. E-mail to a friend",
+        "questions": [
+            {
+                "question": "What was the value of the fortune Daniel Radcliffe received when he turned 18?",
+                "answer_char_ranges": "None|91:103",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "91:103": 2
+                },
+                "answers": [
+                    "£20 million "
+                ],
+                "pred_ans": "£20 million",
+                "correct": 1
+            },
+            {
+                "question": "What age is Daniel?",
+                "answer_char_ranges": "139:142|520:524,802:806|133:153,515:524|799:821",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "133:153": 1,
+                    "520:524": 2
+                },
+                "answers": [
+                    "turns 18 on Monday, ",
+                    "18, "
+                ],
+                "pred_ans": "18",
+                "correct": 1
+            },
+            {
+                "question": "Where was the money held?",
+                "answer_char_ranges": "1299:1315|1230:1251,1284:1294,1299:1315|1299:1315|1304:1315",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1299:1315": 2
+                },
+                "answers": [
+                    "in a trust fund "
+                ],
+                "pred_ans": "london , england",
+                "correct": 0
+            },
+            {
+                "question": "What are the actor's plans for the fortune?",
+                "answer_char_ranges": "773:779,783:787,791:798|376:379,385:453,657:706|None|372:379,385:410,454:463,471:474,481:499,515:548,550:569,657:706",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "657:706": 1,
+                    "none": 1,
+                    "385:453": 1
+                },
+                "answers": [
+                    "\"I don't think I'll be particularly extravagant.\n",
+                    "to fritter his cash away on fast cars, drink and celebrity parties.\n"
+                ],
+                "pred_ans": "no plans to fritter his cash away on fast cars , drink and celebrity parties",
+                "correct": 1
+            },
+            {
+                "question": "What is he going to do?",
+                "answer_char_ranges": "None|1128:1154",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1128:1154": 2,
+                    "bad_question": 1
+                },
+                "answers": [
+                    "have some sort of party,\" "
+                ],
+                "pred_ans": "keeping his feet firmly on the ground",
+                "correct": 0
+            },
+            {
+                "question": "Which earnings were held?",
+                "answer_char_ranges": "1251:1284|103:119,91:103|1230:1242,1251:1284|1230:1242,1251:1284",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "91:103": 2,
+                    "1251:1284": 1
+                },
+                "answers": [
+                    "£20 million ",
+                    "from the first five Potter films "
+                ],
+                "pred_ans": "radcliffe ' s earnings from the first five potter films",
+                "correct": 1
+            },
+            {
+                "question": "Who stars in Harry Potter?",
+                "answer_char_ranges": "None|47:64",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "47:64": 3
+                },
+                "answers": [
+                    "Daniel Radcliffe "
+                ],
+                "pred_ans": "daniel radcliffe",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "story_id": "./cnn/stories/654c6b29b96d2a5a818d91400c20f838b0e8b6df.story",
+        "story_text": "WASHINGTON (CNN) -- Republicans reacted with surprise and recrimination Sunday to blistering criticism of the Iraq war from former coalition commander retired Lt. Gen. Ricardo Sanchez.\n\nLawmakers lashed back at retired Gen. Ricardo Sanchez on Sunday after he criticized the war effort.\n\nOn Friday, Sanchez, who was coalition commander in 2003 and 2004, called the Iraq war \"a nightmare with no end in sight.\" He said the Bush administration, the State Department and Congress all share blame.\n\nSpeaking with military reporters in Virginia, Sanchez also said such dereliction of duty by a military officer would mean immediate dismissal or court martial, but the politicians have not been held accountable.\n\n\"I'm astounded, really,\" South Carolina Republican Sen. Lindsey Graham on CNN's \"Late Edition\" with Wolf Blitzer on Sunday.\n\nGraham, who recently returned from Baghdad, said he and GOP presidential candidate Sen. John McCain had visited Sanchez several times in 2003 and 2004.\n\n\"Every time we talked to Gen. Sanchez, we got pushback -- we have enough troops; Guard and reserves aren't being strained,\" Graham said.\n\nHe added that Sanchez's own record in Iraq is blemished: Abu Ghraib \"got out of control under his watch. The war in general got out of control under his watch.\"\n\nBut Graham said that \"finally,\" with the commitment of nearly 30,000 additional U.S. troops since January, \"We are getting it right.\"\n\nSanchez told reporters that American political leaders have cost American lives on the battlefield with their \"lust for power.\"\n\nSanchez said it had been his duty to obey orders and not object publicly while on active duty, but that he has an obligation to speak out now that he has retired.\n\n\"While the politicians espouse a rhetoric designed to preserve their reputations and their political power, our soldiers die,\" he said.\n\nThat brought a tart response from McCain, the ranking Republican on the Senate Armed Services Committee.\n\n\"I wish that he had given us the benefit of that knowledge at the time,\" McCain told CBS's \"Face the Nation.\" He said Sanchez should have spoken out at the time -- or resigned -- but \"unfortunately, that doesn't happen very often.\"\n\nOne of the reasons few speak out, he said, is evidenced by what happened to former Army Chief of Staff Gen. Eric Shinseki, McCain said. Shinseki was sidelined after telling Congress that hundreds of thousands of troops would be needed to occupy Iraq.\n\nSen. Mitch McConnell, a Republican from Kentucky, told ABC's \"This Week\" that Sanchez is simply wrong. \"My definition of winning is a stable country and an ally in the war on terror,\" he said. \"I think we're making significant progress toward that end.\"\n\nBut, he added, \"I think the central government in Iraq has been an embarrassment. They've not been able to produce any of the kind of political compromises that we had hoped for.\"\n\nGraham said he hopes the government of Prime Minister Nuri al-Maliki will \"step up to the plate and do something meaningful by the end of the year.\"\n\nIf that does not happen, he said, \"it will be incumbent upon us, as a nation, to devise a new political strategy to find a way forward or create a stable Iraq.\"\n\nThat brought a blistering response from Zbigniew Brzezinski, national security adviser under President Carter.\n\n\"What is this? This is a colony,\" he said. \"That's the heart and essence of the difficulties we encounter.\"\n\nEven those Iraqis who were happy to see Saddam Hussein toppled from power more than four years ago are not happy with the continuing U.S. presence, Brzezinski said.\n\nThough some countries are willing to go along with the United States, \"No one in the world really supports our policy in Iraq,\" he said.\n\nIn his Friday speech, Sanchez added that the \"surge\" of U.S. troops into Iraq represents \"a desperate attempt by the administration that has not accepted the political and economic realities of this war.\"\n\nNational Security Council spokeswoman Kate Starr did not address the comment. Instead, she said, \"We appreciate his service to the country. As Gen. Petraeus and Ambassador Crocker said, there's more work to be done but progress is being made in Iraq. And that's what we're focused on now.\"\n\nGen. David Petraeus is the U.S. top commander in Iraq. Ryan Crocker is the U.S. ambassador to Iraq. E-mail to a friend",
+        "questions": [
+            {
+                "question": "who says Sanchez is wrong",
+                "answer_char_ranges": "2441:2463|186:196|None|2441:2463",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "2441:2463": 1,
+                    "186:196": 2
+                },
+                "answers": [
+                    "Sen. Mitch McConnell, ",
+                    "Lawmakers "
+                ],
+                "pred_ans": "sen . mitch mcconnell",
+                "correct": 1
+            },
+            {
+                "question": "What is he astounded by?",
+                "answer_char_ranges": "None|563:583,586:605",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 1,
+                    "586:605": 1,
+                    "563:583": 1
+                },
+                "answers": [
+                    "a military officer ",
+                    "dereliction of duty "
+                ],
+                "pred_ans": "a colony",
+                "correct": 0
+            },
+            {
+                "question": "What did Sanchez call war?",
+                "answer_char_ranges": "364:369,373:409|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "373:409": 2
+                },
+                "answers": [
+                    "\"a nightmare with no end in sight.\" "
+                ],
+                "pred_ans": "a nightmare with no end in sight . \"",
+                "correct": 1
+            },
+            {
+                "question": "who is astouned by comments?",
+                "answer_char_ranges": "None|758:778",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "758:778": 2
+                },
+                "answers": [
+                    "Sen. Lindsey Graham "
+                ],
+                "pred_ans": "zbigniew brzezinski",
+                "correct": 0
+            },
+            {
+                "question": "Who is Sanchez?",
+                "answer_char_ranges": "124:176|159:176,211:232|124:168|110:115,124:151",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "124:176": 2,
+                    "124:151": 1
+                },
+                "answers": [
+                    "former coalition commander retired Lt. Gen. Ricardo ",
+                    "former coalition commander "
+                ],
+                "pred_ans": "wrong",
+                "correct": 0
+            },
+            {
+                "question": "who call the war a nightmare",
+                "answer_char_ranges": "224:240|211:240|298:307|298:307,311:353",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 1,
+                    "211:240": 1,
+                    "298:307": 1
+                },
+                "answers": [
+                    "retired Gen. Ricardo Sanchez ",
+                    "Sanchez, "
+                ],
+                "pred_ans": "ricardo sanchez",
+                "correct": 1
+            },
+            {
+                "question": "who said sanchez is wrong",
+                "answer_char_ranges": "None|186:196",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "186:196": 2
+                },
+                "answers": [
+                    "Lawmakers "
+                ],
+                "pred_ans": "sen . mitch mcconnell",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "story_id": "./cnn/stories/17e43e8e7d2bbbb237df78537d108c3fa917d9fb.story",
+        "story_text": "1. \"Für Elise\"\n\nBob Dylan wrote \"It Ain't Me, Babe\" for Joan Baez.\n\nWritten by: Ludwig van Beethoven\n\nWritten for: Some girl probably not named Elise. In fact, as far as most historians can tell, Beethoven didn't even know an Elise. Instead, the song was originally titled \"Bagatelle in A minor\" based on some handwritten notation a Beethoven researcher claimed to have seen on a now-lost copy of the sheet music.\n\nFurther complicating things, Beethoven had hideous handwriting -- to the point that some scholars speculate the song was actually written \"for Therese,\" as in Therese Malfatti, one of several women who turned down a marriage proposal from the notoriously lovesick maestro.\n\n2. \"Philadelphia Freedom\"\n\nWritten by: Elton John & Bernie Taupin\n\nWritten for: Billie Jean King, as a thank-you for a tracksuit she gave Elton. And what a tracksuit it must have been! The 1975 song remains one of the most popular disco hits ever, leaving thousands of Hustle enthusiasts wondering just what Billie Jean King had to do with Philadelphia, anyway.\n\nTurns out, the song was a reference to King's pro tennis team, The Philadelphia Freedoms. Prior to 1968, tennis players were all considered \"amateurs\" and weren't eligible to receive prize money. So, if you didn't have the wealth to support yourself, you couldn't play. Billie Jean King fought against those constraints, ultimately founding Professional World Team Tennis in 1974 and turning tennis into a paid league sport.\n\n3. \"Lola\"\n\nWritten by: The Kinks' Ray Davies\n\nWritten for: A transvestite. But the question is, which one? According to Rolling Stone, \"Lola\" was inspired by Candy Darling, a member of Andy Warhol's entourage, whom Ray Davies briefly (and cluelessly) dated. If that's the case, then \"Lola\" is just another notch on Darling's song belt -- she's also referred to in Lou Reed's \"Walk on the Wild Side.\" (\"Candy came from out on the Island/ In the backroom she was everybody's darlin'.\")\n\nBut, in the Kinks' official biography, Davies tells a different story. He says \"Lola\" was written after the band's manager spent a very drunken night dancing with a woman whose five o'clock shadow was apparently obvious to everyone but him.\n\n4. \"867-5309/Jenny\"\n\nWritten by: Jim Keller (of Tommy Tutone) and Alex Call\n\nWritten for: Unknown, as the songwriters apparently make up a different story about its inspiration every time they're asked. While the woman continues to remain a mystery, however, the phone number is all too real. In fact, it's been wreaking havoc ever since 1982 and the passage of time hasn't quelled of the number of crank calls. In 1999, Brown University freshman roommates Nina Clemente and Jahanaz Mirza found that out the hard way, when the school adopted an 867 exchange number for its on-campus phone system. Immediately, the girls' innocuous Room No. 5309 became a magnet for every drunk college kid with a 1980s fetish.\n\nOther unfortunate phone customers have fought back with creative and profitable solutions, like the holder of 212-867-5309, who put his phone number up for auction on eBay in 2004. Bids approached $100,000 before eBay pulled the item at the request of Verizon, the number's actual owner.\n\n5. \"Oh, Carol\"\n\nWritten by: Neil Sedaka\n\nWritten for: Carole King, naturally. Sedaka and King actually dated briefly in high school -- a romance Sedaka was able to successfully milk with \"Oh, Carol,\" a then top-10 (if now somewhat forgettable) 1959 pop song.\n\nHowever, the real success of \"Oh, Carol\" came a few months later, when it inspired King to write a rebuttal entitled \"Oh, Neil.\" At the time, King and her husband, Gerry Goffin, were fledgling songwriters in need of a hit tune. \"Oh, Neil\" wasn't that, but it did pay off. After Sedaka gave a tape of the song to his boss, King and Goffin landed jobs at the legendary Brill Building pop music factory, where the duo went on to write chart-toppers like \"Will You Still Love Me Tomorrow\" and \"The Loco-Motion.\"\n\n6. \"It Ain't Me, Babe\"\n\nWritten by: Bob Dylan\n\nWritten for: Joan Baez, though it clearly wasn't the nicest gift Dylan could have given her. The two met in 1961, when Baez was an up-and-coming folk singer and Dylan was a nobody from Minnesota. Desperate to make his break in the music biz, Dylan worked like crazy to get Baez's attention. He eventually ended up going on tour with her, which is how he first became famous, and also how the two began dating. For a while, they seemed like the golden couple, but things soon went downhill.\n\nDuring a European concert tour together in early 1965, they had a huge fight and parted ways. That May, Dylan was holed up in a hotel after being hospitalized with a virus, and Baez, hoping to remain friends, decided to bring him flowers. Sadly, that's how she found out that her ex was already dating someone else. That someone else was Sara Lownds, whom Dylan married a mere six months later.\n\n7. \"Our House\"\n\nWritten by: Graham Nash (of Crosby, Stills, Nash & Young)\n\nWritten for: Joni Mitchell. In December 1968, Nash and Mitchell moved into a cozy little house in the Laurel Canyon section of Los Angeles. Though commonly left out of the hippy pantheon, Laurel Canyon was sort of a commune-home away from commune-home for San Francisco society -- not just CSN&Y, but also Jim Morrison, the Eagles, Frank Zappa, and more.\n\n\"Our House\" was directly inspired by a lazy Sunday in the Nash/Mitchell household. The couple went out to brunch, hit an antiques store, and then returned to find the house just a bit chilly, at which point Nash literally \"lit a fire,\" while Mitchell \"placed the flowers in the vase that she bought that day.\" No, really. The whole tableau seemed so ridiculously domestic to Nash that he immediately sat down and spent the rest of the day writing about it. E-mail to a friend",
+        "questions": [
+            {
+                "question": "What have several famous songs been written for?",
+                "answer_char_ranges": "115:125|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "115:125": 2
+                },
+                "answers": [
+                    "Some girl "
+                ],
+                "pred_ans": "billie jean king",
+                "correct": 0
+            },
+            {
+                "question": "Who wrote \"Fur Elise\"?",
+                "answer_char_ranges": "None|80:101",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "80:101": 2
+                },
+                "answers": [
+                    "Ludwig van Beethoven\n"
+                ],
+                "pred_ans": "bob dylan wrote \" it ain ' t me , babe \" for joan baez . written by : ludwig van beethoven",
+                "correct": 0
+            },
+            {
+                "question": "Who wrote songs for women?",
+                "answer_char_ranges": "16:26,3233:3245,4010:4020,4021:4029,4034:4045|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "4010:4020": 1,
+                    "16:26": 2
+                },
+                "answers": [
+                    "Bob Dylan\n",
+                    "Bob Dylan "
+                ],
+                "pred_ans": "ludwig van beethoven",
+                "correct": 0
+            },
+            {
+                "question": "Who made up stories about who is behind \"867-5309/Jenny?",
+                "answer_char_ranges": "2238:2281,2307:2323|2311:2323|None|2307:2323",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "2238:2281": 2
+                },
+                "answers": [
+                    "Jim Keller (of Tommy Tutone) and Alex Call\n"
+                ],
+                "pred_ans": "jim keller ( of tommy tutone ) and alex call",
+                "correct": 1
+            },
+            {
+                "question": "Who were songs written by?",
+                "answer_char_ranges": "1501:1523,2238:2281,3233:3245,4010:4020,4936:4982,728:755,80:101|1512:1523,2238:2249,2267:2281,3233:3245,4010:4020,4936:4948,728:755,80:101|None|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "80:101": 1,
+                    "none": 1,
+                    "bad_question": 1
+                },
+                "answers": [
+                    "Ludwig van Beethoven\n"
+                ],
+                "pred_ans": "neil sedaka",
+                "correct": 0
+            },
+            {
+                "question": "Who wrote several famous songs?",
+                "answer_char_ranges": "16:26,728:739|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 1,
+                    "16:26": 2
+                },
+                "answers": [
+                    "Bob Dylan "
+                ],
+                "pred_ans": "neil sedaka",
+                "correct": 0
+            },
+            {
+                "question": "What were written by men for a woman?",
+                "answer_char_ranges": "None|3:15",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "3:15": 2
+                },
+                "answers": [
+                    "\"Für Elise\"\n"
+                ],
+                "pred_ans": "elton john & bernie taupin",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "story_id": "./cnn/stories/4812698545d6a4c2243db340fad08d0b3b7fbe0b.story",
+        "story_text": "SAN DIEGO, California (CNN) -- Conditions that created what California Gov. Arnold Schwarzenegger dubbed \"the perfect storm for fire\" eased Wednesday, helping firefighters gain ground against devastating Southern California wildfires.\n\nA plane drops fire retardant on the fourth day of a wildfire pushed by winds through Pauma Valley, California.\n\nWinds that gusted as much as 101 mph on Sunday dropped to about 30 mph Wednesday evening.\n\nMeanwhile, the dry Santa Ana winds that have fanned the flames, changed direction and began blowing inland from the Pacific Ocean, increasing the humidity and easing the burden on almost 8,900 firefighters in the area.\n\nBut the destruction was taking its toll on the men and women on the front lines of the fires.\n\n\"It hurts us to have those homes lost. It hurts us to have those injuries. And it is frustrating for us to watch our community be devastated by this,\" said firefighter Andy Menshek.\n\nAs conditions improved, officials allowed people to return to communities that had been off-limits because of intense flames and dense smoke.\n\n\"It was home,\" said Mark Davis, whose two-story Rancho Bernardo house burned to the ground.\n\n\"It was us. We had been there 28 years, and it had a lot of our flavor.\"\n\nThe change in the weather also meant that firefighting aircraft -- grounded for most of the week by the winds -- could finally fly.\n\nCalifornia Department of Forestry and Fire Protection Capt. Scott McLean called the droning sound of aircraft the \"sound of joy.\"\n\n\"Their drops are hitting their mark because the wind is not there,\" he said.\n\nThe rate of burning had slowed significantly by Wednesday.\n\nStill, the fire damage increased to 434,543 acres, said Gov. Arnold Schwarzenegger.  Watch Schwarzenegger give a progress report »\n\nThat amounted to 679 square miles, or about 10 times the size of Washington, D.C.\n\nBy Wednesday evening, the largest fire -- the Witch in northern San Diego County -- was 10 percent contained.\n\nIt burned about 196,000 acres before combining with the smaller Poomacha blaze.\n\nSeven fires among the 22 counted Wednesday were contained.  See where the fires are burning »\n\nOthers, such as the Buckweed Fire in Los Angeles County, were as much as 94 percent contained.\n\nOne large fire was a suspected arson.\n\nThe FBI and the Orange County Fire Authority are investigating the Santiago fire that has burned more than 19,000 acres.\n\nAll three of its points of origin have been declared crime scenes, said Jim Amornino, a spokesman for the Orange County Sheriff's Department.\n\nA $70,000 reward is being offered for any information leading to the arrest of those responsible for setting the fire.\n\nThe blaze was about 50 percent contained after destroying 17 structures.  Watch the raging flames of the Santiago fire »\n\nThe smaller Rosa fire in Riverside County, 70 percent contained at just over 400 acres, was also a probably arson, state officials said.\n\nAs the fire danger eased, residents were allowed to return to several neighborhoods surrounding San Diego: Del Mar Highlands, Encinitas, Solana Beach, Carmel Valley, Chula Vista and Otay Mesa.\n\nHelicopters were back in the air over the Lake Arrowhead, California, area after all air activity had been suspended because of extremely smoky skies.\n\nIn nearby Running Springs, CNN's Ted Rowlands stood in the midst of charred, smoldering rubble strewn with potentially deadly power lines.\n\n\"It will be a while before these people will come back. When they do come back, unfortunately they'll have this pretty much to look at,\" he said Wednesday.  Watch Rowlands describe a major battle with the flames »\n\nAbout 500 homes were lost in the mountainous region in San Bernardino County east of Los Angeles.  See photos of the fires »\n\n\"Yesterday we couldn't be here, because just this little flame and smoldering pieces of wood would be thrown by the intense winds. ... Now you can see the flames just basically burning themselves out,\" said Rowlands.\n\nThe fires have already destroyed 1,664 structures -- including 1,436 homes -- and they still threaten 25,000 more, Schwarzenegger said Wednesday.\n\nThe blazes have killed three people and left 40 hurt, he said.\n\nThe governor will fly over the area Thursday with President Bush, who signed a major disaster declaration Wednesday.  Watch Bush emphasize the need to be responsive »\n\nIt'll speed federal dollars to people whose property losses aren't covered by insurance and will help local and state agencies pay for the emergency response.\n\nThe cost of homes destroyed by the wildfires is likely to top $1 billion in San Diego County alone, an emergency official said.\n\nFederal help keeps arriving as officials promise a response based on lessons learned from Hurricane Katrina.\n\nPeople left homeless by the fires can go online to apply for federal help at FEMA.gov, he said.\n\nThere were 76,000 people staying in the 42 shelters opened in San Diego County Wednesday morning, according to San Diego emergency spokeswoman Lynda Pfieffer.\n\nQualcomm Stadium -- home to the NFL's San Diego Chargers -- housed 11,000 evacuees at the peak of the disaster, but that number dropped to 5,000 Wednesday morning.  Watch how evacuees are being taken care of at the stadium » E-mail to a friend\n\nCNN's Kate Bolduan contributed to this report.",
+        "questions": [
+            {
+                "question": "is win speed drop?",
+                "answer_char_ranges": "348:438|348:354,359:366,377:385,395:403,412:419|395:419|None",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "bad_question": 1,
+                    "348:438": 2
+                },
+                "answers": [
+                    "Winds that gusted as much as 101 mph on Sunday dropped to about 30 mph Wednesday evening.\n"
+                ],
+                "pred_ans": "it ' ll speed federal dollars to people whose property losses aren ' t covered by insurance",
+                "correct": 0
+            },
+            {
+                "question": "What is the reward?",
+                "answer_char_ranges": "2553:2561|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "2553:2561": 2
+                },
+                "answers": [
+                    "$70,000 "
+                ],
+                "pred_ans": "$ 70 , 000",
+                "correct": 1
+            },
+            {
+                "question": "What happened after Santa ana winds changed direction",
+                "answer_char_ranges": "570:658|1289:1311,1360:1379,598:645|525:645|570:581,585:594,598:658",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "570:658": 2
+                },
+                "answers": [
+                    "increasing the humidity and easing the burden on almost 8,900 firefighters in the area.\n"
+                ],
+                "pred_ans": "winds that gusted as much as 101 mph on sunday dropped to about 30 mph",
+                "correct": 0
+            },
+            {
+                "question": "What will the damages cost?",
+                "answer_char_ranges": "4577:4588|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "4577:4588": 2
+                },
+                "answers": [
+                    "$1 billion "
+                ],
+                "pred_ans": "$ 1 billion",
+                "correct": 1
+            },
+            {
+                "question": "Where was arson suspected?",
+                "answer_char_ranges": "2353:2367|2353:2362,2805:2810",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "2353:2362": 2
+                },
+                "answers": [
+                    "Santiago "
+                ],
+                "pred_ans": "one large fire",
+                "correct": 0
+            },
+            {
+                "question": "What other counties were affected?",
+                "answer_char_ranges": "None|1928:1945,2171:2185,2188:2208,2818:2836,3687:3709,4591:4608",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "3687:3709": 1,
+                    "none": 1,
+                    "2188:2208": 1
+                },
+                "answers": [
+                    "San Bernardino County ",
+                    "Los Angeles County, "
+                ],
+                "pred_ans": "southern california",
+                "correct": 0
+            },
+            {
+                "question": "What damage did the suspected arson cause?",
+                "answer_char_ranges": "2383:2407,2718:2744,2870:2881,2892:2901|1660:1665,1672:1682,1685:1700,1798:1816,1825:1863|2376:2407,2729:2744,2870:2881|4009:4026,4039:4051",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 2,
+                    "2376:2407": 1
+                },
+                "answers": [
+                    "burned more than 19,000 acres.\n"
+                ],
+                "pred_ans": "one large fire was a suspected arson .",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "story_id": "./cnn/stories/da0ea6b7eae20528c7ec822fb77d8e8f78ba09b8.story",
+        "story_text": "JACKSONVILLE, Florida (CNN) -- Eduardo Gonzalez, a petty officer second class with the U.S. Navy, is about to be deployed overseas for a third time. Making his deployment even tougher is the fact his wife may not be around when he comes back.\n\nMildred and Eduardo Gonzalez worry about what would happen to their family if she is deported.\n\nHis wife faces deportation to Guatemala -- her home country that she hasn't seen since 1989. He also doesn't know what would happen to his young son, Eduardo Jr., if that happens.\n\n\"I like being in uniform and serving my country, but if she goes back I'm going to have to give it all up and just get out and take care of my son and get a job,\" he said.\n\n\"Defending the country that's trying to kick my family out is a thought that always runs through my mind.\"\n\nGonzalez, who works on helicopters that bring cargo, supplies and military personnel in and out of Iraq, testified before a House Judiciary Committee panel last month, detailing his situation and urging officials to consider some sort of policy to deal with cases like his, where military members' families could be deported while they're defending their country overseas.  Watch \"they're tearing families apart\" »\n\n\"I want to serve my country 100 percent. But with this issue in the back of my mind, I feel I can't do that,\" he testified on September 6.\n\nThe U.S. military does not have a policy to deal with such cases. Each is handled case-by-case, not by the military, but by immigration authorities. The government doesn't have numbers on how many military members are in predicaments similar  to Gonzalez's.\n\nImmigration officials also said marrying a U.S. citizen does not mean the spouse is automatically entitled to U.S. citizenship or permanent legal status.\n\nLt. Col. Margaret Stock, a member of the U.S. Army Reserves who teaches immigration law at the U.S. Military Academy at West Point, New York, said she believes there should be an overall policy dealing with the potential deportation of family members of active duty military members.\n\n\"You got to understand. When you're in a combat zone, you need to be focusing all of your energies on fighting the enemy. You can't be worried that your loved ones back home could be shipped off to a foreign country where you're never going to see them again,\" she said.\n\nStock also said the government is conflicted about how to treat such cases. On the one hand, the government is supposed to be providing military families with assistance, housing and other forms of benefits while their spouses are overseas. On the other hand, the same government is trying to deport the very same people.\n\n\"What's happening right now is, because of the dysfunction and complexity of our immigration laws, we've got people fighting overseas who are facing the impossible situation of having family members facing deportation back home,\" she said.\n\nIn Gonzalez's case, his wife, Mildred, came to the United States with her mother in 1989 when she was 5 years old. They were granted political asylum because of their status as war refugees from Guatemala.\n\nIn September 2000, Mildred's mother applied for legalization and included her daughter in that application. Her mother was granted legal status in July 2004, according to Gonzalez.\n\nHowever, six weeks earlier, Gonzalez and Mildred got married, canceling Mildred's ability to apply for legal status through her mother because she was no longer an unmarried daughter under the age of 21. As a result, her legal status still remains in jeopardy.\n\nA judge in June granted her a one-year extension to remain in the United States. If her legal status does not change by June 8, 2008, she will have 60 days to voluntarily leave the country or face deportation.\n\nThat's just fine, according to Mark Krikorian, the executive director of the Center for Immigration Studies, which lobbies for tougher laws on illegal immigration.\n\n\"What you're talking about is amnesty for illegal immigrants who have a relative in the armed forces, and that's just outrageous,\" he said. \"What we're talking about here is letting lawbreakers get away with their actions just because they have a relative in the military. ... There's no justification for that kind of policy.\"\n\nGonzalez said that type of response is unjustified. \"I'm trying to make his country better -- my country better -- and it should be her country too.\"\n\nGonzalez himself entered the country legally, crossing the Mexican border with his family when he was about 10. He joined the Navy as a so-called \"green-card sailor\" and became a U.S. citizen in July 2005. The military does accept some immigrants who aren't U.S. citizens.\n\n\"I understand the laws have to be followed and guidelines and a system must be maintained, but on the other token, there are times when the situation is just out of their reach,\" Gonzalez said.\n\nHis wife, Mildred, added, \"We didn't come here to break the law. We just want to feel safe and have a home just like everybody else.\"\n\nU.S. Army Sgt. Emmanuel Woko, a member of the Army's 2nd Brigade, 1st Infantry Division who faces his third tour in Iraq, understands just how Gonzalez and his family feel. His wife and children could be sent back to Nigeria.\n\n\"My heart is bleeding on the thought that my wife could be deported back to Nigeria while I am deployed in Iraq,\" he said. \"I am extremely distressed and distracted by the thought.\"\n\nThat's a sentiment echoed by Gonzalez: \"We are not asking for anything. We are just asking for our families to stay with us.\" E-mail to a friend\n\nCNN's Gregg Canes contributed to this report.",
+        "questions": [
+            {
+                "question": "What does the sailor find tough",
+                "answer_char_ranges": "187:243|200:205,319:339|196:243|340:367",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "187:243": 2
+                },
+                "answers": [
+                    "the fact his wife may not be around when he comes back.\n"
+                ],
+                "pred_ans": "gonzalez said that type of response is unjustified",
+                "correct": 0
+            },
+            {
+                "question": "What does the sailor's wife want",
+                "answer_char_ranges": "4947:5003|1226:1246|4934:4942,4947:5003|4947:5003",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1226:1246": 1,
+                    "4947:5003": 2
+                },
+                "answers": [
+                    "to serve my country ",
+                    "to feel safe and have a home just like everybody else.\"\n"
+                ],
+                "pred_ans": "it should be her country too",
+                "correct": 0
+            },
+            {
+                "question": "sailor's wife could be reported while what?",
+                "answer_char_ranges": "None|349:367",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 1,
+                    "bad_question": 1,
+                    "349:367": 1
+                },
+                "answers": [
+                    "faces deportation "
+                ],
+                "pred_ans": "deployed overseas for a third time . making his deployment even tougher is the fact his wife may not be around when he comes back",
+                "correct": 0
+            },
+            {
+                "question": "What does the wife want to feel?",
+                "answer_char_ranges": "4955:4960|4955:5003|None|4955:4960",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "4955:4960": 2,
+                    "4955:5003": 1
+                },
+                "answers": [
+                    "safe ",
+                    "safe and have a home just like everybody else.\"\n"
+                ],
+                "pred_ans": "safe",
+                "correct": 1
+            },
+            {
+                "question": "When could a sailor's wife be deported?",
+                "answer_char_ranges": "None|1076:1109,1127:1175",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "1127:1175": 2
+                },
+                "answers": [
+                    "while they're defending their country overseas. "
+                ],
+                "pred_ans": "when he comes back",
+                "correct": 0
+            },
+            {
+                "question": "Whose wife could be deported while he's overseas?",
+                "answer_char_ranges": "256:273|244:252,256:264|31:49|31:49",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "256:273": 2
+                },
+                "answers": [
+                    "Eduardo Gonzalez "
+                ],
+                "pred_ans": "eduardo gonzalez",
+                "correct": 1
+            },
+            {
+                "question": "Which sailor's wife?",
+                "answer_char_ranges": "None|244:252",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "244:252": 1,
+                    "none": 2
+                },
+                "answers": [
+                    "Mildred "
+                ],
+                "pred_ans": "mildred",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "story_id": "./cnn/stories/613d6311ec2c1985bd44707d1796d275452fe156.story",
+        "story_text": "(CNN) -- Police and FBI agents are investigating the discovery of an empty rocket launcher tube on the front lawn of a Jersey City, New Jersey, home, FBI spokesman Sean Quinn said.\n\nNiranjan Desai discovered the 20-year-old AT4 anti-tank rocket launcher tube, a one-time-use device, lying on her lawn Friday morning, police said.\n\nThe launcher has been turned over to U.S. Army officials at the 754th Ordnance Company, an explosive ordnance disposal unit, at Fort Monmouth, New Jersey, Army officials said.\n\nThe launcher \"is no longer operable and not considered to be a hazard to public safety,\" police said, adding there was no indication the launcher had been fired recently.\n\nArmy officials said they could not determine if the launcher had been fired, but indicated they should know once they find out where it came from.\n\nThe nearest military base, Fort Dix, is more than 70 miles from Jersey City.\n\nThe Joint Terrorism Task Force division of the FBI and Jersey City police are investigating the origin of the rocket launcher and the circumstance that led to its appearance on residential property.\n\n\"Al Qaeda doesn't leave a rocket launcher on the lawn of middle-aged ladies,\" said Paul Cruickshank of New York University Law School's Center on Law and Security.\n\nA neighbor, Joe Quinn, said the object lying on Desai's lawn looked military, was brown, had a handle and strap, and \"both ends were open, like you could shoot something with it.\"\n\nQuinn also said the device had a picture of a soldier on it and was 3 to 4 feet long.\n\nAn Army official said the device is basically a shoulder-fired, direct-fire weapon used against ground targets -- a modern-day bazooka -- and it is not wire-guided.\n\nAccording to the Web site Globalsecurity.org, a loaded M136 AT4 anti-tank weapon has a 40-inch-long fiberglass-wrapped tube and weighs just 4 pounds. Its 84 millimeter shaped-charge missile can penetrate 14 inches of armor from a maximum of 985 feet. It is used once and discarded. E-mail to a friend\n\nCNN's Carol Cratty, Dugald McConnell, and Mike Mount contributed to this report.",
+        "questions": [
+            {
+                "question": "Who said weapon not capable?",
+                "answer_char_ranges": "None|597:604",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "597:604": 2
+                },
+                "answers": [
+                    "police "
+                ],
+                "pred_ans": "an army official",
+                "correct": 0
+            },
+            {
+                "question": "Who picked up the anti-tank weapons from New Jersey?",
+                "answer_char_ranges": "368:388|None",
+                "is_answer_absent": 0.5,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "none": 1,
+                    "368:388": 2
+                },
+                "answers": [
+                    "U.S. Army officials "
+                ],
+                "pred_ans": "u . s . army",
+                "correct": 1
+            },
+            {
+                "question": "Where did the empty anti-tank weapon turn up?",
+                "answer_char_ranges": "474:486|103:114|103:150,96:103|103:150",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "103:150": 2
+                },
+                "answers": [
+                    "front lawn of a Jersey City, New Jersey, home, "
+                ],
+                "pred_ans": "fort monmouth , new jersey",
+                "correct": 0
+            },
+            {
+                "question": "What did experts say about the weapon?",
+                "answer_char_ranges": "705:757|521:597|1106:1184,1561:1615,1622:1650,1653:1674,1677:1704,521:597|224:283",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "521:597": 2
+                },
+                "answers": [
+                    "\"is no longer operable and not considered to be a hazard to public safety,\" "
+                ],
+                "pred_ans": "they could not determine if the launcher had been fired",
+                "correct": 0
+            },
+            {
+                "question": "Where did anti-tanl weapon showed up?",
+                "answer_char_ranges": "1294:1349,1565:1603|103:150,96:103|283:301|182:212,228:260,283:301",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "103:150": 1,
+                    "bad_question": 2
+                },
+                "answers": [
+                    "front lawn of a Jersey City, New Jersey, home, "
+                ],
+                "pred_ans": "desai ' s lawn",
+                "correct": 0
+            },
+            {
+                "question": "To which group was the device handed over to?",
+                "answer_char_ranges": "368:388|368:419|None|368:419",
+                "is_answer_absent": 0.25,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "368:388": 2
+                },
+                "answers": [
+                    "U.S. Army officials "
+                ],
+                "pred_ans": "army",
+                "correct": 1
+            },
+            {
+                "question": "Is the weapon active?",
+                "answer_char_ranges": "508:544|525:544|521:597|521:544",
+                "is_answer_absent": 0.0,
+                "is_question_bad": "?",
+                "validated_answers": {
+                    "521:544": 1,
+                    "521:597": 2
+                },
+                "answers": [
+                    "\"is no longer operable ",
+                    "\"is no longer operable and not considered to be a hazard to public safety,\" "
+                ],
+                "pred_ans": "could not determine if the launcher had been fired",
+                "correct": 0
+            }
+        ]
+    }
+]

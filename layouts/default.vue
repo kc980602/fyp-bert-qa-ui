@@ -1,10 +1,13 @@
 <template>
     <v-app>
         <v-app-bar :flat="true" color="white" app elevate-on-scroll fixed>
-            <nuxt-link to="/" tag="div" style="cursor: pointer">
-                <v-toolbar-title class="font-weight-bold" v-text="title"/>
-            </nuxt-link>
-            <v-spacer/>
+            <div class="container">
+                <nuxt-link to="/" tag="div" style="cursor: pointer">
+                    <v-toolbar-title class="font-weight-bold" v-text="title"/>
+                </nuxt-link>
+            </div>
+
+<!--            <v-spacer/>-->
         </v-app-bar>
 
         <v-content>
