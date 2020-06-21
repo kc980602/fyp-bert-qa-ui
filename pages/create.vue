@@ -16,7 +16,7 @@
                         :complete="currStep > 1"
                         editable
                         step="1">
-                    1. Upload Document
+                    1. Add Document
                 </v-stepper-step>
 
                 <v-icon class="mb-3" color="secondary">mdi-chevron-right</v-icon>
@@ -25,7 +25,7 @@
                         :complete="currStep > 2"
                         :editable="step2Enable"
                         step="2">
-                    2. Fine-tune Document Context
+                    2. Document Paragraph
                 </v-stepper-step>
 
                 <v-icon class="mb-3" color="secondary">mdi-chevron-right</v-icon>
@@ -44,6 +44,11 @@
                     <h3 class="font-size-24 font-size-md-32 mb-7">Upload your documents</h3>
                     <v-layout class="mb-7" justify-end>
 
+                        <v-btn color="primary" rounded outlined x-large class="mr-2" @click="dialogRawText = true">
+                            <v-icon left>mdi-plus</v-icon>
+                            Raw Text
+                        </v-btn>
+
                         <file-upload
                                 :accept="accept"
                                 :extensions="extensions"
@@ -61,7 +66,6 @@
                             </v-btn>
                         </file-upload>
                     </v-layout>
-
 
                     <v-layout class="mb-7">
                         <v-data-table
@@ -90,6 +94,25 @@
                     <v-layout class="mb-7" justify-end>
                         <v-btn :disabled="!step2Enable" @click="startUploadAndGetUrls" color="primary" rounded x-large>Continue to Fine-tune</v-btn>
                     </v-layout>
+
+                    <v-dialog max-width="500px" v-model="dialogRawText">
+                        <v-card>
+                            <v-card-title>
+                                <span class="headline">Add Raw Text</span>
+                            </v-card-title>
+
+                            <v-card-text class="pb-0">
+                                <v-text-field label="Text Name" placeholder="Text Name" v-model="rawTextName"></v-text-field>
+                                <v-textarea label="Text" v-model="rawText"></v-textarea>
+                            </v-card-text>
+
+                            <v-card-actions>
+                                <v-spacer></v-spacer>
+                                <v-btn @click="dialogRawText = false" text>Cancel</v-btn>
+                                <v-btn @click="dialogSaveRawText" color="primary" text>Save</v-btn>
+                            </v-card-actions>
+                        </v-card>
+                    </v-dialog>
                 </v-stepper-content>
 
                 <v-stepper-content step="2">
@@ -303,6 +326,9 @@
         extensions: string = 'txt,pdf'
         files: {}[] = []
         docIds: number[] = []
+        dialogRawText: boolean = false
+        rawTextName:string = ''
+        rawText:string = ''
         //  Step 2
         fileOptions: {}[] = []
         currFile: string = ''
@@ -394,6 +420,22 @@
                 sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
                 i = Math.floor(Math.log(bytes) / Math.log(k))
             return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i]
+        }
+
+        async dialogSaveRawText() {
+            if (!!this.rawTextName && !!this.rawText) {
+                const res = await createRequest('/file/raw', 'post', {}, {filename: this.rawTextName, text: this.rawText}).send()
+                if (res.data.success) {
+                    this.docIds.push(res.data.id)
+                    this.dialogRawText = false
+                    this.files.push({name: this.rawTextName, size: 0})
+                    this.rawTextName = ''
+                    this.rawText = ''
+                    this.step2Enable = this.files.length > 0
+                }
+            } else {
+                this.$store.dispatch('setSnackMessage', 'Fill in all info!')
+            }
         }
 
         //  Step 2

@@ -1,34 +1,32 @@
 <template>
-    <v-row class="story" no-guttersss>
-        <v-col class="mb-4" cols="12">
-            <h6 class="title">{{storyId}}</h6>
-        </v-col>
-        <v-col class="mb-4" cols="12" md="6">
-            <div :id="storyId" class="story__text-wrap">
-                <p class="story__text" v-html="text"/>
-            </div>
-        </v-col>
-        <v-col cols="12" md="6">
-            <v-card :class="`correct-${q.correct}`" :key="index" class="question" v-for="(q, index) in story.questions">
-                <div class="font-size-16 font-weight-medium">{{q.question}}</div>
-                <v-card-text>
-                    <div>
-                        <span class="subheading">Answer</span>
-                        <div class="mb-2">
-                            <v-chip :key="ans" @click="clickChip(ans)" small v-for="(ans, a_idx) in q.answers">{{ans}}</v-chip>
+    <div class="story">
+        <h6 class="title">{{storyId}}</h6>
+        <div :id="storyId" class="story__text-wrap">
+            <p class="story__text" v-html="text"/>
+        </div>
+        <v-row>
+            <v-col :key="index" cols="12" md="6" v-for="(q, index) in story.questions">
+                <v-card :class="`correct-${q.correct}`" class="question">
+                    <div class="font-size-16 font-weight-medium">{{q.question}}</div>
+                    <v-card-text>
+                        <div>
+                            <span class="subheading">Answer</span>
+                            <div class="mb-2">
+                                <v-chip :key="ans" @click="clickChip(ans)" small v-for="(ans, a_idx) in q.answers">{{ans}}</v-chip>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <span class="subheading">Prediction</span>
-                        <div class="mb-2">
-                            <v-chip @click="clickChip(q.pred_ans, true)" small>{{q.pred_ans}}</v-chip>
+                        <div>
+                            <span class="subheading">Prediction</span>
+                            <div class="mb-2">
+                                <v-chip @click="clickChip(q.pred_ans, true)" small>{{q.pred_ans}}</v-chip>
+                            </div>
                         </div>
-                    </div>
-                </v-card-text>
+                    </v-card-text>
 
-            </v-card>
-        </v-col>
-    </v-row>
+                </v-card>
+            </v-col>
+        </v-row>
+    </div>
 </template>
 
 <script lang="ts">
@@ -86,7 +84,7 @@
 
             &-wrap {
                 padding: 12px;
-                max-height: 600px;
+                max-height: 400px;
                 overflow-y: auto;
                 border: 2px solid #ff470f;
                 border-radius: 4px;
