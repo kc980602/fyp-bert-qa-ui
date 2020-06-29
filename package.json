@@ -28,6 +28,7 @@
     "@nuxt/typescript-build": "^0.6.0",
     "@nuxtjs/vuetify": "^1.11.2",
     "@types/webpack-env": "^1.15.2",
+    "material-design-icons-iconfont": "^5.0.1",
     "push-dir": "^0.4.1"
   }
 }

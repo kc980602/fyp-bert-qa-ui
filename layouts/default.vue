@@ -35,9 +35,9 @@
             </v-list>
         </v-app-bar>
 
-        <v-content>
+        <v-main>
             <nuxt/>
-        </v-content>
+        </v-main>
 
 <!--        <v-footer app>-->
 <!--            <span>BERT QA &copy; {{ new Date().getFullYear() }}</span>-->
