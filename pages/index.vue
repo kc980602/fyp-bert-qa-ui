@@ -99,7 +99,7 @@
                 </v-flex>
             </v-layout>
 
-            <a id="demo"></a>
+            <a id="try"></a>
             <v-layout class="py-10" column>
                 <v-flex>
                     <div class="text-center">
