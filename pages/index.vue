@@ -74,24 +74,8 @@
                             <a class="ref-link" href="https://github.com/Maluuba/newsqa" target="_blank">Maluuba NewsQA</a> dataset
                         </p>
 
-                        <table class="mx-auto text-left mb-4">
-                            <tr>
-                                <td>Accuracy</td>
-                                <td class="text-right">35.92</td>
-                            </tr>
-                            <tr>
-                                <td>Correct</td>
-                                <td class="text-right">5029</td>
-                            </tr>
-                            <tr>
-                                <td>Error</td>
-                                <td class="text-right">8971</td>
-                            </tr>
-                            <tr>
-                                <td>Empty Answer</td>
-                                <td class="text-right">748</td>
-                            </tr>
-                        </table>
+                        <p>F1: 55.3 / EM: 33.1</p>
+                        
                         <nuxt-link to="/demo">
                             <v-btn color="primary" rounded x-large>Explore Result</v-btn>
                         </nuxt-link>
