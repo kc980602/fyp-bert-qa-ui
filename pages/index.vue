@@ -75,7 +75,7 @@
                         </p>
 
                         <p>F1: 55.3 / EM: 33.1</p>
-                        
+
                         <nuxt-link to="/demo">
                             <v-btn color="primary" rounded x-large>Explore Result</v-btn>
                         </nuxt-link>
@@ -93,9 +93,8 @@
                         <p class="subtitle-1">A demo QA Bot created with
                             <a class="ref-link" href="https://www.labour.gov.hk/eng/public/wcp/ConciseGuide/EO_guide_full.pdf" target="_blank">Hong
                                 Kong Employment Ordinance</a><br>
-                            The full text is 67 pages split into 50 paragraph
                         </p>
-                        <ask :qa-id="5643550469390336"></ask>
+                        <ask :qa-id="6217090637758464"></ask>
                     </div>
                 </v-flex>
             </v-layout>

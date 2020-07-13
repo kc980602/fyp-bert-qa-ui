@@ -1,7 +1,7 @@
 <template>
     <v-container class="py-6">
 
-        <v-overlay id="create-loading" :value="isLoading" absolute="absolute" color="rgba(255, 255, 255, 0.8)">
+        <v-overlay :value="isLoading" absolute="absolute" color="rgba(255, 255, 255, 0.8)" id="create-loading">
             <v-progress-circular
                     :size="80"
                     :width="3"
@@ -44,7 +44,7 @@
                     <h3 class="font-size-24 font-size-md-32 mb-7">Upload your documents</h3>
                     <v-layout class="mb-7" justify-end>
 
-                        <v-btn color="primary" rounded outlined x-large class="mr-2" @click="dialogRawText = true">
+                        <v-btn @click="dialogRawText = true" class="mr-2" color="primary" outlined rounded x-large>
                             <v-icon left>mdi-plus</v-icon>
                             Raw Text
                         </v-btn>
@@ -104,6 +104,7 @@
                             <v-card-text class="pb-0">
                                 <v-text-field label="Text Name" placeholder="Text Name" v-model="rawTextName"></v-text-field>
                                 <v-textarea label="Text" v-model="rawText"></v-textarea>
+                                <span>Word Count: {{rawTextLength}}</span>
                             </v-card-text>
 
                             <v-card-actions>
@@ -219,10 +220,10 @@
                     </div>
 
                     <v-layout class="mb-7" justify-center>
-                        <v-btn color="primary" dark class="mb-2" @click="dialogShareSave = true" rounded x-large>Save</v-btn>
+                        <v-btn @click="dialogShareSave = true" class="mb-2" color="primary" dark rounded x-large>Save</v-btn>
                     </v-layout>
 
-                    <v-dialog v-model="dialogShareSave" max-width="500px">
+                    <v-dialog max-width="500px" v-model="dialogShareSave">
                         <v-card>
                             <v-card-title class="mb-5">
                                 <span class="headline">Save your QA Bot</span>
@@ -327,8 +328,8 @@
         files: {}[] = []
         docIds: number[] = []
         dialogRawText: boolean = false
-        rawTextName:string = ''
-        rawText:string = ''
+        rawTextName: string = ''
+        rawText: string = ''
         //  Step 2
         fileOptions: {}[] = []
         currFile: string = ''
@@ -343,13 +344,6 @@
         dialogShareSave: boolean = false
         //  DATA
         docList: Doc[] = []
-
-
-        head() {
-            return {
-                title: 'Create - Bert QA Bot Generator'
-            }
-        }
 
         get docParagraph() {
             if (this.currFile !== '') {
@@ -374,6 +368,17 @@
 
         get qaIdAPILink() {
             return `${process.env.API_DOMAIN}/ask/${this.qaId}?question=what+is+bert`
+        }
+
+        get rawTextLength() {
+            const wordList = _.filter(this.rawText.split(' '), text => text.trim() !== '')
+            return wordList.length
+        }
+
+        head() {
+            return {
+                title: 'Create - Bert QA Bot Generator'
+            }
         }
 
         created() {
