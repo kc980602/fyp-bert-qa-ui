@@ -12,13 +12,6 @@
 
             <v-list rounded>
                 <v-list-item-group color="primary">
-                    <nuxt-link class="text-decoration-none" to="/#try">
-                        <v-list-item>
-                            <v-list-item-content>
-                                <v-list-item-title v-text="'Try'"></v-list-item-title>
-                            </v-list-item-content>
-                        </v-list-item>
-                    </nuxt-link>
                     <nuxt-link class="text-decoration-none" to="/demo">
                         <v-list-item>
                             <v-list-item-content>
