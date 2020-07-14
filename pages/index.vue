@@ -15,7 +15,7 @@
                         </div>
                     </v-col>
                     <v-col class="d-none d-md-block" md="6">
-                        <img class="elevation-10 rounded-xl" src="/ask-ui.png" width="100%">
+                        <img class="elevation-10 rounded-xl" src="~/assets/ask-ui.png" width="100%">
                     </v-col>
 
                 </v-row>
