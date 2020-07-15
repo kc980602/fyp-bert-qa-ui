@@ -26,7 +26,6 @@ export default {
         link: [
             {rel: 'icon', type: 'image/x-icon', href: '/icon.png'},
             {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;500;700&display=swap'},
-            {rel: 'stylesheet', href: '~/assets/style.css'}
         ]
     },
     /*
@@ -36,7 +35,7 @@ export default {
     /*
     ** Global CSS
     */
-    css: ['~/assets/style.css'],
+    css: [],
     /*
     ** Plugins to load before mounting the App
     */
